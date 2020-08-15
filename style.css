@@ -1,0 +1,75 @@
+.btn {
+    margin-left: 5px;
+}
+
+.btn1 {
+    color: white;
+    font-weight: bold;
+}
+
+.btn2 {
+    color: black;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item:hover {
+    color: cyan;
+    background-color: #fff;
+}
+
+a {
+    color: black;
+    font-weight: 500;
+}
+
+.images {
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+}
+
+.cardstyle {
+    height: 70px;
+}
+
+p {
+    max-lines: 2;
+}
+
+@media all and (min-width: 992px) {
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar .has-megamenu {
+        position: static!important;
+    }
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .col-md-2 {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
